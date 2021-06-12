@@ -3,6 +3,9 @@ document.getElementById('button').addEventListener('click', getCircumferenceAndA
 // adjust how many decimal places it rounds to here
 const round = 3
 
+let circumference
+let area
+
 function getCircumferenceAndArea () {
   // gets values and calculates area and circumference
   const radius = document.getElementById('radius').value
